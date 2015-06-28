@@ -22,7 +22,7 @@ public class LargestIntAnagram {
 		Random rand = new Random();
 		int n = rand.nextInt(999);
 		System.out.println("Wygenerowana liczba: " + n + "\n");
-		System.out.println("Najwy¿szy mo¿liwy palindrom: " + largestPalindrome(n));
+		System.out.println("Najwy¿szy mo¿liwy anagram wygenerowanej liczby: " + largestPalindrome(n));
 	}
 
 	public static String largestPalindrome(int N) {
