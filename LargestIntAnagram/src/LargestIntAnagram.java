@@ -22,10 +22,10 @@ public class LargestIntAnagram {
 		Random rand = new Random();
 		int n = rand.nextInt(999);
 		System.out.println("Wygenerowana liczba: " + n + "\n");
-		System.out.println("Najwy¿szy mo¿liwy anagram wygenerowanej liczby: " + largestPalindrome(n));
+		System.out.println("Najwy¿szy, mo¿liwy anagram, wygenerowanej losowo liczby: " + largestAnagram(n));
 	}
 
-	public static String largestPalindrome(int N) {
+	public static String largestAnagram(int N) {
 	    ArrayList<Integer> arr = new ArrayList<Integer>();
 	    do {
 	    	arr.add(N%10);
